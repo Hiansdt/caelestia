@@ -2,11 +2,12 @@ local vars = require("variables")
 
 hl.config({
     input = {
-        kb_layout          = "us",
+        kb_layout          = "br",
         numlock_by_default = false,
         repeat_delay       = 250,
         repeat_rate        = 35,
         focus_on_close     = 1,
+        kb_options         = "caps:escape",
 
         touchpad           = {
             natural_scroll       = true,
